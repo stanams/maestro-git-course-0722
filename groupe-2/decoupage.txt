@@ -19,16 +19,22 @@ US-2 - Saisie du code de vérification par sms
   En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de vérification par sms via le numéro de téléphone attaché à mon compte utilisateur.
   
       1 - En tant qu'utilisateur existant, je veux recevoir un code de vérification temporaire sur mon téléphone portable afin de pouvoir m'authentifier sur mon navigateur.
+     
+US-3 - Saisie du code de vérification
+
+  En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir ce code sur une fenêtre de vérification sur mon navigateur.
       
-      2 - En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir le code de vérification reçu par sms sur la fenêtre de saisie apparue.
+      1 - En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir le code de vérification reçu par sms sur la fenêtre de saisie apparue.
       
-      3 - 
+      2 - En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux voir écrit sur la fenêtre "Et pour finir... Nous venons de vous envoyer un code à 6 chiffres sur le numéro de téléphone ***. Veuillez entrer ce code pour finaliser votre connexion." afin de m'assurer que le code reçu l'a été au bon numéro.
+      
+      3 - En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux que le numéro de télépone associé à mon compte soit en partie caché lorsqu'il est affiché sur la fenêtre de saisie du code de vérification.
+      
+      4 - En tant qu'utilisateur qui a reçu un code de vérification par sms, 
       
 Acceptance - Etant donné que j'ai reçu un code de vérification par sms, lorsque je renseigne ce code sur la fenêtre de saisie à 6 chiffres, alors je suis connecté à mon compte utilisateur.  
 
-US-3 - Saisie du code de vérification
 
-En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir ce code sur une fenêtre de vérification sur mon navigateur.
 
 US-4 - Certification du navigateur 
 
