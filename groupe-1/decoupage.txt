@@ -1,18 +1,11 @@
 EPIC: mettre en place l’authentification à 2 facteurs
 
 US1 : Interface de login
-US2 : Interface d'envoi de SMS
+US2 : Interface de verification de mon compte 1 : Envoi de SMS
 US3 : Reception d'un SMS
-US4 : Saisie du Code reçu par SMS + Validation
-US5 : Confirmation du code renseigne
-
+US4 : Interface de verification de mon compte 2 : Saisie du Code reçu par SMS + Validation
+US5 : Confirmation du code renseigné
 
 En tant que En tant qu'Utilisateur existant, je veux renseigner mon adresse email et mon mot de passe et valider pour acceder à mon compte
 En tant qu'utilisateur je veux recevoir le code de verification par sms pour etre rassure
-
-
-
-
-
-
 
