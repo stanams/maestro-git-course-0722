@@ -1,8 +1,8 @@
 Etape 2 : Le client renseigne le code d'authentification 6 chiffres
 
-En tant qu'utilisateur
+En tant qu'utilisateur loggué
 je veux renseigner le code de vérification
-afin d'accéder à mon compte 
+afin d'accéder à accès sécurisé 
 
 #CA
 
@@ -13,5 +13,5 @@ THEN alors je peux accéder à mon compte
 
 (version 2)
 GIVEN etant donné que j'ai reçu un code de vérification
-WHEN quand j'ai voulu me connecter via un nouveau navigateur
-THEN alors j'ai renseigné les 6 chiffre
+WHEN quand je rentre les 6 mêmes chiffres
+THEN alors je suis redirigé sur la page pour enregistré nouvel navigateur
