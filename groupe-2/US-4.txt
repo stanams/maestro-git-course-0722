@@ -1,1 +1,30 @@
 
+US-4 - Certification du navigateur
+
+
+  EN TANT qu'utilisateur authentifié à 2FA
+  JE VEUX certifier mon navigateur
+  AFIN de ne pas avoir à refaire la 2FA à chaque connexion
+
+
+==================
+
+#1 CA
+
+      ETANT donné que l'authentification est complète
+      LORSQUE je choisis de désigner ce navigateur comme mon navigateur de confiance
+      ALORS mon choix est mémorisé pour ma prochaine connexion
+
+#2 CA
+
+      ETANT donné que l'authentification est complète
+      LORSQUE je clique sur {plus tard} 
+      ALORS la 2FA est requise lors de ma prochaine connexion
+
+
+#3 CA
+
+      ETANT donné mon choix est mémorisé pour ce navigateur
+      LORSQUE je me connecte 
+      ALORS je suis directement envoyé sur la home page sans passé par la 2FA
+ 
