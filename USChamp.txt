@@ -1,0 +1,20 @@
+En tant qu'utilisateur en cours d'identification et ayant renseigné un numéro de téléphone lors de la création de mon compte client Leboncoin,
+je veux renseigner le code de vérification à 6 chiffres reçu par SMS 
+afin de sécuriser ma connection.
+
+
+=====================
+#1CA
+Etant donné que je suis un utilisateur en cours d'identification,
+Quand je clique sur le bouton "recevoir un code de vérification",
+Alors, une page s'affiche pour saisir le code reçu par SMS
+
+#2CA
+Etant donné que je suis un utilisateur en cours d'identification,
+Quand je clique sur le bouton "recevoir un code de vérification",
+Alors je reçois un code à 6 chiffres par SMS sur mon téléphone
+
+#3CA
+Etant donné que j'ai reçu mon code à 6 chiffres,
+Quand j'ai renseigné le code à 6 chiffres dans les champs dédiés
+Alors je suis identifiée et j'accède à la page "se fier à ce navigateur"
