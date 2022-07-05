@@ -26,4 +26,8 @@ US-3 - Saisie du code de vérification
       LORSQUE je suis sur la page de saisie du code
       ALORS je reste bloqué sur cette page
       
-     
+ #4 CA
+
+      ETANT donné je suis sur la page de saisie du code
+      LORSQUE je suis bloqué sur cette page
+      ALORS je vois apparaitre un message d'erreur {t'es bloqué}   
