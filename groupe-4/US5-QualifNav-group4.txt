@@ -1,0 +1,26 @@
+En tant qu'utilisateur ayant validé son processus d'identification à 2 facteurs,
+je veux pouvoir qualifier mon navigateur
+afin de ne pas avoir à renouveler le processus d'identification à 2 facteurs à chaque connexion
+
+
+===============
+
+#CA1
+Etant donné que je suis un utilisateur dont le code à 6 chiffres a été validé avec succès
+Quand je clique sur "se fier à ce navigateur" 
+Alors je suis redirigé vers ma home page
+
+#CA2
+Etant donné que je suis un utilisateur ayant validé avec succès le 2 FA authentification process et ayant demandé à se fier à un navigateur,
+Quand je me connecte depuis ce même navigateur,
+Alors je n'ai pas besoin de recommencer le processus d'authentification et je me connecte en entrant uniquement mon e-mail et mon password
+
+#CA3
+Etant donné que je suis un utilisateur ayant validé avec succès le 2 FA authentification process et ayant demandé à se fier à un navigateur,
+Quand je me connecte depuis un autre navigateur,
+Alors je me recommence le processus d'authentification dont l'étape 1 est la saisie de mon e-mail et mon password et l'étape 2 la saisie d'un codeà 6 digit recu par SMS sur mon téléphone
+
+#CA4
+Etant donné que je suis un utilisateur ayant validé avec succès le 2 FA authentification process et ayant demandé à se fier à un navigateur,
+Quand je clique sur le bouton "plus tard"
+Alors j'arrive sur ma home page et à ma prochaine visite, je devrais repasser par le processus d'authentification à 2 facteurs. 
