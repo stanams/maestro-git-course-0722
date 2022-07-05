@@ -1,0 +1,18 @@
+
+EPIC : en tant que client Leboncoin je veux qu'on me soumette à une authentification à double facteur afin de sécuriser l'accès à mon espace
+
+
+Etape 1 : Authenfication 1 (email+MDP)
+Etape 2 : Demande de validation du numéro de telephone pour envoie du code
+Etape 3 : Envoi d'un code de vérification sur le mobile et 
+Etape 4 : reception du sms par le client contenant le code de vérification
+Etape 5 : Le client renseigne le code d'authentification 6 chiffres
+Etape 6 : Proposition de validation du navigateur
+Etape 7 / client heureux !!!
+
+
+
+
+
+
+
