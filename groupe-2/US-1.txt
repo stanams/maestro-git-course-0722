@@ -2,7 +2,9 @@
 US-1 - Affichage du pop-up de la demande de réception du code de vérification
 
 
-  En tant qu'utilisateur inscrit je veux qu'un pop-up de code de vérification apparaisse une fois que j'ai validé la saisie de mon e-mail et de mon mot de passe afin que je puisse m'identifier avec un deuxième facteur. 
+  EN TANT qu'utilisateur inscrit ayant validé la saisie de mon e-mail et de mon mot de passe
+  JE VEUX qu'un pop-up de code de vérification apparaisse  
+  AFIN QUE je puisse m'identifier avec un deuxième facteur pour plus de sécurité 
 
 
 ==================
@@ -14,4 +16,15 @@ US-1 - Affichage du pop-up de la demande de réception du code de vérification
               ET un mot de passe coresspondant au nom de l'utilisateur 
               ET qu'un numéro de téléphone est associé à ce nom d'utilisateur 
       LORSQUE je clique sur le bouton de connexion 
-      ALORS je vois une po-ip d'identification à deux facteurs
+      ALORS je vois une pop-up d'identification à deux facteurs 
+              INDIQUANT le numéro de téléphone renseigné sous la forme +33 6X-XX-XX-deux derniers numéros affichés
+      
+#2 CA  
+
+      ETANT donné que j'ai renseigné 
+              un nom d'utilisateur actif et correct
+              ET un mot de passe coresspondant au nom de l'utilisateur 
+              ET qu'AUNCUN numéro de téléphone n'est associé à ce nom d'utilisateur 
+      LORSQUE je clique sur le bouton de connexion 
+      ALORS je suis connecté sans passé par l'authentification à un deuxième facteur et renvoyé sur la home page
+ 
