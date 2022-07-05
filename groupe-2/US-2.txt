@@ -1,22 +1,19 @@
-US-2 - 
+
+US-2 - Réception du SMS contenant le code de vérification unique
 
 
-  EN TANT 
-  JE VEUX 
-  AFIN QUE 
+  EN TANT qu'utilisateur ayant cliqué sur le bouton de réception du code
+  JE VEUX recevoir un code de vérification par SMS au numéro rattaché à mon compte
+  AFIN de valider que je suis le possesseur du compte 
 
 
 ==================
 
 #1 CA
 
-      ETANT donné 
-      LORSQUE 
-      ALORS 
-      
-#2 CA  
-
-      ETANT donné
-      LORSQUE 
-      ALORS 
- 
+      ETANT donné que j'ai donné un numéro de téléphone valide et lié à mon compte
+      LORSQUE je clique sur le bouton {recevoir le code de vérification}
+      ALORS je recois un code à 6 chiffres généré automatiquement 
+            ET je suis redirigé vers une pop-up de saisie du code à 6 chiffres
+            
+            
