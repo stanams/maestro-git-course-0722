@@ -1,0 +1,17 @@
+En tant qu'utilisateur
+je veux que LBC m'envoie un code de vérification
+afin d'acceder à mon compte 
+
+#CA
+
+GIVEN Etant donné que je suis sur un nouveau navigateur
+WHEN quand je me connecte pour la première fois sur LBC
+THEN alors LBC m'envoi un code par SMS
+
+GIVEN Etant donné que j'ai renseigné mon numéro de mobile
+WHEN quand je m'identifie sur LBC via un nouveau navigateur
+THEN alors on m'envoie un code de connexion à 6 chiffres sur ce numéro mobile
+
+GIVEN
+WHEN
+THEN
