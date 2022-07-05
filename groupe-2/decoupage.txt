@@ -1,6 +1,8 @@
 
 US-1 - Affichage du pop-up de la demande de réception du code de vérification
 
+En tant qu'utilisateur non loggué, je veux voir une fenêtre de code de vérification apparaître une fois que j'ai validé la saisie de mon email et de mon 
+
 US-2 - Réception du SMS contenant le code de vérification unique
 
 US-3 - Saisie du code d'authentification
