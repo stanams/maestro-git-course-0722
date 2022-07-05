@@ -1,18 +1,4 @@
-VERSION 1
-US1 : declenchement de la 2FA  (en tant qu'utilisateur existant, avec un numéro de telephone renseigne, et utilisant un nouveau navigateur) 
-US2 : recevoir un code de verification
-US3 : reception sms
-US4 : saisie code verification 
-US5 : le code est validé
-US6 : navigateur de confiance 
-
-ou 
-
-VERSION 2
 US1 : declenchement de la 2FA 
 US2 : recevoir un code de verification 
 US3 : saisie code verification 
 US4 : validation navigateur
-
-
-(les 2 sont valables, cela depend si on veut decouper front et back comme en veriosn 1 ou faire du full stack comme en version 2)
