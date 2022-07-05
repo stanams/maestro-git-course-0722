@@ -3,4 +3,4 @@ US2: En tant qu'utilisateur en cours d'identification, je vérifie que le numér
 US3: En tant qu'utilisateur en cours d'identification, je demande à recevoir un code de vérification sur le numéro de téléphone pré-identifié
 US4: En tant qu'utilisateur en cours d'identification, je recois un code à 6 chiffres pas SMS sur le numéro de téléphone identifié
 US5: En tant qu'utilisateur en cours d'identification, je renseigne le code dans les 6 champs de contrôle à renseigner
-US6: En tant qu'utilisateur en cours d'identification, je qualifie la fiabilité du navigateur sur cet environnement de travail
+US6: En tant qu'utilisateur en cours d'identification, je qualifie la fiabilité du navigateur sur cet environnement de travail :-)
