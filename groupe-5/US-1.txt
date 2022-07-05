@@ -1,0 +1,27 @@
+US1 : declenchement de la 2FA
+
+En tant qu'utilisateur loggé depuis un nouveau navigateur
+Je veux accéder au service 2FA
+Afin de sécuriser ma session
+
+----------
+
+ETANT DONNE QUE 
+  l'utilisateur a un numero de telephone sur son profil 
+  et que son navigateur est nouveau
+QUAND l'utilisateur se log
+ALORS il accede au service de double authentification
+
+
+ETANT DONNE QUE 
+  l'utilisateur n'a pas de telephone sur son profil 
+  OU que son navigateur est reconnu
+QUAND il se log
+ALORS il n'accede pqs au service de 2FA
+
+
+
+CA
+
+Numéro de téléphone OUI / NON
+Navigateur nouveau OUI/NON
