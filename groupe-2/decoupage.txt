@@ -1,14 +1,14 @@
-US-1 - Affichage du pop-up de la demande de réception du code de vérification
+US-1 - Affichage d'une fenêtre de vérification
 
 En tant qu'utilisateur non loggué, je veux voir une fenêtre de code de vérification apparaître une fois que j'ai validé la saisie de mon email et de mon mot de passe.
 
-US-2 - Réception du SMS contenant le code de vérification unique
+US-2 - Réception du code de vérification par sms
 
-En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de vérification via mon numéro de téléphone attaché à mon compte utilisateur.
+En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de vérification via le numéro de téléphone attaché à mon compte utilisateur.
 
-US-3 - Saisie du code d'authentification
+US-3 - Saisie du code de vérification
 
-En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir ce code sur une fenêtre de saisie.
+En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir ce code sur une fenêtre de vérification.
 
 US-4 - Certification du navigateur 
 
