@@ -1,0 +1,20 @@
+En tant qu'utilisateur ayant validé mon e-mail et mon mot de passe,
+Je veux pouvoir enclencher le processus d'authentification à 2 facteurs
+Afin de poursuivre mon identification sur LeBonCoin.
+
+
+====================
+#CA1
+Etant donné que j'ai renseigné mon numéro de téléphone lors de la création de mon compte client,
+Quand je clique sur "recevoir mon code de validation"
+Alors je reçois un code de validation par SMS
+
+#CA2
+Etant donné que je n'ai pas renseigné de numéro de téléphone lors de la création de mon compte client,
+Quand je clique sur le bonton "se connecter", 
+Alors je ne passe pas par le processus d'authentification à deux facteurs. 
+
+#CA3
+
+
+#CA5
