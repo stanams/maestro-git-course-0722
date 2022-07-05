@@ -8,8 +8,8 @@ En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de 
 
 US-3 - Saisie du code de vérification
 
-En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir ce code sur une fenêtre de vérification.
+En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir ce code sur une fenêtre de vérification sur mon navigateur.
 
 US-4 - Certification du navigateur 
 
-En tant qu'utilisateur loggué à deux facteurs, je veux pouvoir certifier le navigateur sur lequel je me suis authentifier.
+En tant qu'utilisateur loggué à deux facteurs, je veux pouvoir certifier le navigateur sur lequel je me suis authentifié.
