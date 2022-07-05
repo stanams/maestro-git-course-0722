@@ -1,1 +1,6 @@
-GROUPE #5 Michael / Marine / Oscar/ Julien
+- login (critere d'acceptation = si nouveau navigateur alors, US 2, page d'accueil loggée)
+- recevoir un code de verification
+- reception sms
+- saisie code verification 
+- le code est validé
+- navigateur de confiance 
