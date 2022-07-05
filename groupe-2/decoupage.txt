@@ -30,12 +30,18 @@ US-3 - Saisie du code de vérification
       
       3 - En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux que le numéro de télépone associé à mon compte soit en partie caché lorsqu'il est affiché sur la fenêtre de saisie du code de vérification.
       
-      4 - En tant qu'utilisateur qui a reçu un code de vérification par sms, 
+      4 - En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux voir affichées 6 cases grises afin que je puisse entrer le code de vérification que j'ai reçu par sms.
       
 Acceptance - Etant donné que j'ai reçu un code de vérification par sms, lorsque je renseigne ce code sur la fenêtre de saisie à 6 chiffres, alors je suis connecté à mon compte utilisateur.  
 
+Acceptance - Etant donné que j'ai saisi le code de vérification que j'ai reçu par sms, lorsque je saisis les chiffres dans les cases grises sur la fenêtre de connexion, alors je suis automatiquement connecté à mon compte utilisateur sans validation de la saisie.
 
+Acceptance - Etant donné que j'ai reçu un code de vérification par sms, lorsque je rentre un mauvais code dans les cases grises sur la fenêtre de connexion, je ne peux pas accéder à mon compte utilisateur.
 
 US-4 - Certification du navigateur 
 
-En tant qu'utilisateur loggué à deux facteurs, je veux pouvoir certifier le navigateur sur lequel je me suis authentifié.
+  En tant qu'utilisateur loggué à deux facteurs, je veux pouvoir certifier le navigateur sur lequel je me suis authentifié.
+  
+      1 - 
+      
+      2 - 
