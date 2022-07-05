@@ -1,10 +1,30 @@
 US-1 - Affichage d'une fenêtre de vérification
 
-En tant qu'utilisateur non loggué, je veux voir une fenêtre de code de vérification apparaître une fois que j'ai validé la saisie de mon email et de mon mot de passe.
+  En tant qu'utilisateur loggué grâce à mon email, je veux voir une fenêtre de code de vérification apparaître une fois que j'ai validé la saisie de mon email et de mon mot de passe.
 
-US-2 - Réception du code de vérification par sms
+      1 - En tant que user existant, je veux voir apparaître une fenêtre avec le texte suivant : "Code de vérification. La sécurité de vos informations personnelles est essentielle. Nous vérifions donc que vous êtes bien à l'origine de cette demande." afin de comprendre que je dois recevoir puis saisir un code pour me connecter.
 
-En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de vérification par sms via le numéro de téléphone attaché à mon compte utilisateur.
+      2 - En tant que user existant, je veux voir un champ comprenant mon numéro de téléphone grisé sur la fenêtre de vérification afin de vérifier que le numéro affiché est bien mon numéro de téléphone.
+
+      3 - En tant que user existant, je veux voir un bouton "Recevoir un code de vérification" sur lequel je puisse cliquer sur la fenêtre de vérification afin de recevoir un code temporaire via sms.
+      
+      4 - En tant qu'utilisateur existant, je veux voir appraître un fenêtre de saisie du code après avoir cliqué sur le bouton "Recevoir un code de vérification".
+
+
+Acceptance - Etant donné que j'ai renseigné l'email et le mot de passe attachés à mon compte utilisateur, lorsque je clique sur le bouton de connexion, alors je vois apparaître une fenêtre d'authentification à deux facteurs.
+
+
+US-2 - Saisie du code de vérification par sms
+
+  En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de vérification par sms via le numéro de téléphone attaché à mon compte utilisateur.
+  
+      1 - En tant qu'utilisateur existant, je veux recevoir un code de vérification temporaire sur mon téléphone portable afin de pouvoir m'authentifier sur mon navigateur.
+      
+      2 - En tant qu'utilisateur qui a reçu un code de vérification par sms, je veux pouvoir saisir le code de vérification reçu par sms sur la fenêtre de saisie apparue.
+      
+      3 - 
+      
+Acceptance - Etant donné que j'ai reçu un code de vérification par sms, lorsque je renseigne ce code sur la fenêtre de saisie à 6 chiffres, alors je suis connecté à mon compte utilisateur.  
 
 US-3 - Saisie du code de vérification
 
