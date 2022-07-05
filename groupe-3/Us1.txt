@@ -1,3 +1,6 @@
+Etape 1 : Envoi d'un code de vérification sur le mobile et reception du sms par le client contenant le code de vérification 
+
+
 En tant qu'utilisateur
 je veux que LBC m'envoie un code de vérification
 afin d'acceder à mon compte 
