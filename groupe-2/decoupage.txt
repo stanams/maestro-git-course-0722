@@ -12,9 +12,9 @@ US-1 - Affichage d'une fenêtre de vérification
       4 - En tant qu'utilisateur existant, je veux voir appraître un fenêtre de saisie du code après avoir cliqué sur le bouton "Recevoir un code de vérification".
 
 
-Acceptance : Etant donné que j'ai renseigné l'email et le mot de passe attachés à mon compte utilisateur, lorsque je clique sur le bouton de connexion, alors je vois apparaître une fenêtre d'authentification à deux facteurs.
+Acceptance : Etant donné que j'ai renseigné l'email et le mot de passe attachés à un compte utilisateur actif, lorsque je clique sur le bouton de connexion, alors je vois apparaître une fenêtre d'authentification à deux facteurs.
 
-Acceptance : Etant donné que j'ai renseigné mon numéro de téléphone lors de mon inscription, lorsque je saisis mon email et mon mot de passe pour me connecter, alors je vois apparaître une fenêtre de vérification et d'authentification à deux facteurs.
+Acceptance : Etant donné que j'ai renseigné mon numéro de téléphone lors de mon inscription, lorsque je saisis mon email et mon mot de passe pour me connecter, alors je vois apparaître une fenêtre d'authentification à deux facteurs.
 
 
 
