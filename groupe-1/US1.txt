@@ -1,0 +1,54 @@
+US1 Interface de login pour authentification premiere à deux facteurs
+
+En tant qu'utilisateur existant, je renseigne mes identifiants afin de me connecter à mon compte via une authentification à deux facteurs
+
+Critères d'acceptance
+
+GIVEN En tant qu'utilisateur existant et n'ayant jamais réalisé l'identification à 2 facteurs, sur l'interface de login
+WHEN je renseigne correctememt mes identifiants ET je clique sur le bouton "Se connecter"
+THEN j'accède à l'interface de verification 
+
+
+---------------------
+
+US2 : Interface de Verification de mon compte 1 - Reception de SMS
+
+En tant qu'utilisateur existant ayant renseigné mes identifiants valides, 
+je suis invité à renseigner mon numero de telephone 
+afin de recevoir un code de verification par SMS
+
+GIVEN   Je suis un utilisateur sur la premiere etape de 2FA
+WHEN    je clique sur le bouton "recevoir le SMS"
+THEN    je reçois un code de verification à 6 chiffres par SMS 
+        et suis redirige vers l'etape suivante de 2FA
+        
+        
+
+--------------------
+
+US3 : Interface de Verification de mon compte 1 - Saisie du code reçu par SMS pour finalisation de la connexion
+
+En tant qu'utilisateur ayant recu un SMS pour authentification à 2 facteurs, 
+je souhaite le saisir sur l'interface de verification 
+afin de finaliser l'étape d'authentification 
+
+GIVEN   J'ai reçu un code de verification par SMS
+WHEN    Je le saisis correctement sur l'interface de verification 
+THEN    L'interface de simplification (Navigateur de confiance) apparait
+
+GIVEN   Je n'ai pas reçu de code de verification par SMS
+WHEN    Je suis sur l'interface de verification, je peux cliquer une un bouton de renvoi
+THEN    Un nouveau SMS est envoye
+
+
+
+
+--------------------
+
+US4 : Interface de Simplification - Navigateur de confiance
+
+En tant qu'utilisateur ayant saisi le code recu par SMS pour authentification à 2 facteurs, 
+je souhaite 
+afin de 
+
+
