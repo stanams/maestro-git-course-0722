@@ -1,0 +1,29 @@
+US-3 - Saisie du code de vérification
+
+
+  EN TANT qu'utilisateur ayant reçu son code à 6 chiffres d'authentification
+  JE VEUX pouvoir saisir ce code sur la fenêtre de vérification 
+  AFIN de certifier que je suis l'utilisateur relié au compte
+
+
+==================
+
+#1 CA
+
+      ETANT donné j'ai reçu mon code
+      LORSQUE j'entre correctement les 6 chiffres reçus
+      ALORS je suis automatiquement dirigé sur la page suivante de connexion 2FA
+      
+#2 CA
+
+      ETANT donné j'ai reçu mon code
+      LORSQUE je n'entre pas correctement les 6 chiffres 
+      ALORS je reste bloqué sur la page de saisie du code 
+
+#3 CA
+
+      ETANT donné j'ai je n'ai pas reçu mon code
+      LORSQUE je suis sur la page de saisie du code
+      ALORS je reste bloqué sur cette page
+      
+     
