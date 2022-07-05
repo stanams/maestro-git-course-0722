@@ -4,7 +4,7 @@ En tant qu'utilisateur non loggué, je veux voir une fenêtre de code de vérifi
 
 US-2 - Réception du code de vérification par sms
 
-En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de vérification via le numéro de téléphone attaché à mon compte utilisateur.
+En tant qu'utilisateur loggué grâce à mon email, je veux recevoir un code de vérification par sms via le numéro de téléphone attaché à mon compte utilisateur.
 
 US-3 - Saisie du code de vérification
 
