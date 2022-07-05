@@ -1,17 +1,17 @@
+Etape 2 : Le client renseigne le code d'authentification 6 chiffres
+
 En tant qu'utilisateur
-je veux que LBC m'envoie un code de vérification
-afin d'acceder à mon compte 
+je veux renseigner le code de vérification
+afin d'accéder à mon compte 
 
 #CA
 
-GIVEN Etant donné que je suis sur un nouveau navigateur
-WHEN quand je me connecte pour la première fois sur LBC
-THEN alors LBC m'envoi un code par SMS
+(version 1)
+GIVEN Etant donné que j'ai reçu un code à 6 chiffres
+WHEN quand je rentre les 6 mêmes chiffres
+THEN alors je peux accéder à mon compte
 
-GIVEN Etant donné que j'ai renseigné mon numéro de mobile
-WHEN quand je m'identifie sur LBC via un nouveau navigateur
-THEN alors on m'envoie un code de connexion à 6 chiffres sur ce numéro mobile
-
-GIVEN
-WHEN
-THEN
+(version 2)
+GIVEN etant donné que j'ai reçu un code de vérification
+WHEN quand j'ai voulu me connecter via un nouveau navigateur
+THEN alors j'ai renseigné les 6 chiffre
