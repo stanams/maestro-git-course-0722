@@ -1,1 +1,4 @@
-GROUPE #5 Michael / Marine / Oscar/ Julien
+US1 : declenchement de la 2FA 
+US2 : recevoir un code de verification 
+US3 : saisie code verification 
+US4 : validation navigateur
