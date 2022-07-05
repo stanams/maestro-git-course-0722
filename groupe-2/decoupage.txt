@@ -1,2 +1,9 @@
 
-Touche pas à mon Git !
+US-1 - Affichage du pop-up de la demande de réception du code de vérification
+
+US-2 - Réception du SMS contenant le code de vérification unique
+
+US-3 - saisie du code d'authentification
+
+US-4 - Certification du navigateur 
+
