@@ -1,6 +1,6 @@
-- login (critere d'acceptation = si nouveau navigateur alors, US 2, page d'accueil loggée)
-- recevoir un code de verification
-- reception sms
-- saisie code verification 
-- le code est validé
-- navigateur de confiance 
+US1 : login (critere d'acceptation = si nouveau navigateur alors, US 2, page d'accueil loggée)
+US2 : recevoir un code de verification
+US3 : reception sms
+US4 : saisie code verification 
+US5 : le code est validé
+US6 : navigateur de confiance 
