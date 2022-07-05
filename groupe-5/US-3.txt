@@ -1,0 +1,35 @@
+US-3 = saisie code verification 
+ 
+En tant qu'utilisateur loggé qui a commencé le parcours de 2FA, 
+je veux saisir sur le formulaire le code recu par sms 
+afin de securiser ma session en 2FA // faire de mon navigateur un navigateur approuvé
+
+==============================
+
+#1 CA
+AUCUN - car on est un utilisateur loggé
+=> NON, on doit anticiper les cas d'erreur dans les criteres d'acceptation
+
+liste des CA possibles
+- code is valid // OK
+- code is not ok //OK
+- je veux que mes champs soient highlightes en fonction du nombre de chiffres que jai deja rentre // NO
+- pas d'envoi de validation tant que les 6 chiffres ne sont pas ecrits // YES
+- quand je tape une lettre/un caractere special une phrase dit seuls les chiffres sont acceptes // YES
+- s'il ne se passe rien au bout de 10 min dire que l'authentification a echoue et renvoyer sur us2 // YES
+
+
+
+=============================
+
+ajouter la maquette figma
+
+liste des CA possibles
+code is valid 
+code is not ok 
+je veux que mes champs soient highlighte en fonction du nombre de chiffres que jai deja rentre 
+pas d'envoi de validation tant que les 6 chiffres 
+qund je tape une lettre une phrase dit seuls les chiffres sont acceptes
+quan jarrive sur l'ecran, un minuteur de 10 min se lance 
+
+
